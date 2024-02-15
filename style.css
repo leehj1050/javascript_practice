@@ -1,0 +1,49 @@
+.container {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+}
+.input_wrap {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+.input_wrap div input {
+  width: 95%;
+}
+
+/* 리스트 */
+.list_wrap {
+  border: 2px solid red;
+  margin-top: 1em;
+}
+.list_wrap ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.list_wrap ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list_wrap ul li div {
+  display: flex;
+  gap: 15px;
+}
+/*공통 h6*/
+.list_wrap ul li div h6 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.delete_btn {
+  cursor: pointer;
+}
+
+/* 체크시 */
+.checked .user_todo {
+  text-decoration: line-through;
+}

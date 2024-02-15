@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet"></link>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>오늘의 할 일은?</h1>
+      </div>
+      <!-- 유저 인풋 -->
+      <div class="input_wrap">
+        <div>
+          <input placeholder="오늘 할 일" class="user_input"/>
+        </div>
+        <div>
+          <button onclick="handleClick()">+</button>
+        </div>
+      </div>
+      <!-- 리스트 -->
+      <div class="list_wrap">
+        <ul>
+          <li>
+            <div>
+              <input type="checkbox" class="user_check" onclick="handleChecked()"/>
+              <h6 class="user_todo">개개개개개</h6>
+            </div>
+            <div>
+              <h6 class="delete_btn">삭제</h6>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./test.js" type="text/javascript"></script>
+  </body>
+</html>
